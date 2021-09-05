@@ -13,6 +13,7 @@ export default (props: any) => {
   const menuList = [
     { name: '项目列表', code: 'projectList' },
     { name: '任务列表', code: 'taskList' },
+    { name: '0904', code: '0904' },
   ];
   return (
     <Layout className={styles.layout}>
