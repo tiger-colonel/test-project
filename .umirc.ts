@@ -20,7 +20,7 @@ export default defineConfig({
   routes: [
     {
       exact: true,
-      path: '/publish',
+      path: '/',
       component: '@/pages/publish',
     },
     {
