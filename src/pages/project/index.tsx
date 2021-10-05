@@ -115,6 +115,7 @@ export default () => {
       <Button type="primary" icon={<PlusOutlined />} onClick={handleAdd} size="large" style={{ marginBottom: '24px' }}>
         新增项目1005
       </Button>
+      <div>1005-1111</div>
       <AddProject projectInfo={project} visible={visible} setVisible={setVisible} getAll={getAll} />
       <Table dataSource={list} columns={columns} />
     </>
